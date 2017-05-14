@@ -25,6 +25,12 @@
         </descriptors>
       </configuration>
     </facet>
+    <facet type="google-app-engine" name="Google App Engine">
+      <configuration>
+        <sdk-home-path>$USER_HOME$/Downloads/install/appengine-java-sdk-1.9.53</sdk-home-path>
+        <persistence-api>JDO3</persistence-api>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/target/classes" />
