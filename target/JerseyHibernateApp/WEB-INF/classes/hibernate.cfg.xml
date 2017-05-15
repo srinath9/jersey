@@ -5,7 +5,10 @@
     <session-factory name="hibernateSessionFactory">
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.connection.password">newpin</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/jersey</property>
+        <!--<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/jersey</property>-->
+        <property name="hibernate.connection.url">jdbc:mysql://104.197.195.136:3306/jersey</property>
+        <!--<property name="hibernate.connection.url">jdbc:google:mysql://jersey-167610:us-central1:jersey1/db-na<U+200C><U+200B>me?user=root</property>-->
+        <!--<property name="hibernate.connection.cloudsql.url">jdbc:google:mysql://jersey-167610:us-central1:jersey1/db-na<U+200C><U+200B>me?user=root</property>-->
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.show_sql">true</property>
